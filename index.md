@@ -7,8 +7,8 @@ authors:
     Anwen Hu, Shizhe Chen, Liang Zhang and Qin Jin
 affiliations:
     Renmin University of China, INRIA
-paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
-video: https://www.youtube.com/results?search_query=turing+machine
+paper: https://github.com/HAWLYQ/ET-Cap
+video: https://github.com/HAWLYQ/ET-Cap
 code: https://github.com/HAWLYQ/ET-Cap
 data: https://github.com/HAWLYQ/ET-Cap
 ---
@@ -26,35 +26,24 @@ Extensive experiments demonstrate that our model outperforms other carefully des
 
 ---
 
-## Background
-The paper "On Computable Numbers, with an Application to the Entscheidungsproblem" was published by Alan Turing in 1936. In this groundbreaking paper, Turing introduced the concept of a universal computing machine, now known as the Turing machine.
+## Introduction
 
-## Objective
-
-
-
-## Contributions
-* We propose a novel and challenging Embodied Cap-
-tioning task which requires agents to explore in 3D en-
-vironments to generate better visual descriptions.
-
-* A high-quality dataset is constructed to benchmark
-the Embodied Captioning task, with 10K synthetic 3D
-scenes and 24K manually annotated good viewpoints
-and 30K paragraph descriptions.
-
-* We present a Cascade Embodied Captioning model
-which incorporates navigation histories for captioning,
-providing a strong starting point for future work.
-
-![Turing Machine](/static/image/figure1.png)
+![Figure 1](/static/image/figure1.png)
 
 *Figure 1: We
 propose a new Embodied Captioning task which allows agents to
 navigate the environment to reduce visual ambiguity of the scene.*
 
+## Contributions
+* We propose a novel and challenging Embodied Captioning task which requires agents to explore in 3D environments to generate better visual descriptions.
 
-## Significance
+* A high-quality dataset is constructed to benchmark the Embodied Captioning task, with 10K synthetic 3D scenes and 24K manually annotated good viewpoints and 30K paragraph descriptions.
+
+* We present a Cascade Embodied Captioning model which incorporates navigation histories for captioning, providing a strong starting point for future work.
+
+## ET-Cap
+
+## CaBOT
 
 ## Citation
 ```
